@@ -1,0 +1,5 @@
+# a)
+ifconfig en0 | grep broadcast | awk '{print $6}'
+
+# b)
+ping $(ifconfig en0 | grep broadcast | awk '{print $6}') -c 1 && arp -ai en0 | awk '{print $2}' | sed 's/(//' | sed 's/)//' 
