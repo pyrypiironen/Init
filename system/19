@@ -1,2 +1,1 @@
 sudo sysv-rc-conf --list
-#daemons
