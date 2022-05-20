@@ -1,1 +1,1 @@
-sudo sysv-rc-conf --list
+sudo systemctl list-unit-files --type=service --state=enabled

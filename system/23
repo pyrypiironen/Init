@@ -1,0 +1,12 @@
+graphic:
+
+
+
+ssh:
+
+Set host ip (127.0.0.1), host port (2222),
+guest ip (10.0.2.15 or your IP) and guest port (22)
+at VM settings -> network -> advanced -> port forwarding.
+
+Use command ssh username@host_ip -p port to connect on the VM.
+# ssh debianpyry@127.0.0.1 -p 2222
