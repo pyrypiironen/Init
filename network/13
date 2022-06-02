@@ -1,1 +1,3 @@
-host $(ipconfig getifaddr en0) | awk "{print $ 5}"
+c2r4p5.hive.fi
+
+# host $(ipconfig getifaddr en0) | awk "{print $ 5}"
